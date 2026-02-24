@@ -1,0 +1,37 @@
+{
+  "name": "nodejs-practice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andOneBasketball/nodejs-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andOneBasketball/nodejs-practice/issues"
+  },
+  "homepage": "https://github.com/andOneBasketball/nodejs-practice#readme",
+  "description": "",
+  "dependencies": {
+    "@solana/spl-token": "^0.4.14",
+    "@solana/web3.js": "^1.98.4",
+    "dotenv": "^17.2.2",
+    "ethers": "^6.15.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6",
+    "ts-node": "^10.9.1",
+    "@types/node": "^18.16.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p tsconfig.json",
+    "dev": "ts-node ts_demo/demo.ts",
+    "start": "node dist/demo.js"
+  }
+}
